@@ -16,8 +16,8 @@ This Python script computes the truncation radius of a circumstellar protoplanet
 
 The script calculates the truncation radius of a protoplanetary disc around a star in a binary system using:
 
-- Binary parameters: primary (M1) and secondary (M2) star masses (Note: M1 > M2), binary separation, and binary eccentricity.  
-- Disc viscosity: parameterized by the alpha viscosity (Shakura-Sunyaev α) 
+- Binary parameters: primary ($M_1$) and secondary ($M_2$) star masses (Note: $M_1$ > $M_2$), binary separation, and binary eccentricity.  
+- Disc viscosity: parameterized by the viscosity $\alpha$
 - Option to compute the truncation radius for either the **circumprimary** or **circumsecondary** disc.
 
 The truncation radius is computed following the method outlined in *Manara et al. (2019, Appendix C)*, with adjustments described in *Venturini et al. (submitted)*.
@@ -33,7 +33,7 @@ The truncation radius is computed following the method outlined in *Manara et al
 ## Usage
 
 - Define the binary system parameters (Example provided: Gamma-Cephei system):
-  - M1 = 1.27      # Mass of the primary star [Msun]
+  - `M1 = 1.27      # Mass of the primary star [Msun]`
   - M2 = 0.328     # Mass of the secondary star [Msun]
   - abin = 19.56   # Binary separation [au]
   - ebin = 0.41    # Binary eccentricity
