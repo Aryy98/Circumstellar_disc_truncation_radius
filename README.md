@@ -52,9 +52,7 @@ The truncation radius is computed following the method outlined in *Manara et al
 The function `calculate_truncation` computes the truncation radius of a circumstellar protoplanetary disc in an binary system using the recipe from *Manara et al. (2019)* as described in *Venturini et al. (submitted)*. 
 The truncation radius is expressed as:
 
-\[
-R_{\rm trunc}(M_1, M_2, e_{\rm bin}, a_{\rm bin}) = R_{\rm Egg} \times (b \, e_{\rm bin}^c + h \, \mu^k)
-\]
+$R_{\rm trunc}(M_1, M_2, e_{\rm bin}, a_{\rm bin}) = R_{\rm Egg} \times (b \, e_{\rm bin}^c + h \, \mu^k)$
 
 where \(b, c, h, k\) are fitting parameters, and  
 
