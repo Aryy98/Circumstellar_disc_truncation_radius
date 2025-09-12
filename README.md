@@ -56,9 +56,7 @@ $R_{\rm trunc}(M_1, M_2, e_{\rm bin}, a_{\rm bin}) = R_{\rm Egg} \times (b \, e_
 
 where \(b, c, h, k\) are fitting parameters, and  
 
-\[
-\frac{R_{\rm Egg}}{a_{\rm bin}} = \frac{0.49 \, q^{-2/3}}{0.6 \, q^{-2/3} + \ln(1+q^{-1/3})}
-\]  
+$\frac{R_{\rm Egg}}{a_{\rm bin}} = \frac{0.49 \, q^{-2/3}}{0.6 \, q^{-2/3} + \ln(1+q^{-1/3})}$
 
 with \(q = M_2/M_1\) (\(M_2 < M_1\)) and \(\mu = M_2/(M_1 + M_2)\) *(Eggleton 1983)*. The parameters \(h = 0.88\) and \(k = 0.01\) are found by fitting the data from *Papaloizou & Pringle (1977)*.  
 
